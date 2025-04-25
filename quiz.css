@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+* {
+    margin: 0%; /*margem*/
+    padding: 0%; /*espaco entre borda e o conteudo*/
+    box-sizing: border-box;/*altera a altura e largura*/
+}
+body{
+    padding: 2rem;
+    background-color:#f4f0ea;
+    color: #798252;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;/*deixar a letra mais grossa*/ 
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px green;
+}
+header{
+    color: rgb(26, 184, 73);
+    font-size: 70px;
+    padding: 2rem;
+    background-color: #e9cdc4;
+    text-align: center;/*para deixar o texto centralizado*/
+    text-shadow: 7px 7px rgb(104, 100, 100);
+    box-shadow: 10px 10px 10px 10px #7a7a7a;
+    border-radius: 8px;
+}
+main{
+    padding: 2rem;
+    display: flex;/*para ter acesso ao flex*/
+    flex-direction: column;/*para dixar em forma de coluna*/
+    gap: 1.5rem;/*espacamento dos itens filhos*/
+    margin: 1rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+h2 {
+    margin: 0.7px;
+    color: #331f19;
+    font-size: 1.7rem;/* serve para alterar o tamanho da letra*/
+}
+input[type="radio"],[type="checkbox"]{
+    accent-color:#000000;/* para mudar cor da selecão*/
+    cursor: pointer;
+    margin-top: 15px;
+}
+input[type="text"],[type="email"],[type="password"],[type="date"], [type="datetime-local"]{
+    margin-top: 10px;/*cria um espaco de cima pra baixo*/
+    width: 100%;
+    padding: 0.5rem;
+    border:2px #ccd595 solid;
+    border-radius: 5px;/*para deixar borda redonda*/
+    background-color: transparent;
+    cursor: pointer;
+}
+input::placeholder{
+    color: #ccd595;
+}
+select{
+    cursor: pointer;
+    background-color: #ccd595;
+    color: #331f19;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+img{
+    margin-top: 10px;
+    width: 10rem;
+    border-radius: 5px;
+}
+table{
+    width: 100%;
+}
+th{
+    background-color: #ccd595;
+    color: #331f19;
+    padding: 1rem;
+}
+td{
+    color: #331f19;
+    padding: 1.5rem;
+    text-align: center;
+}
+summary{
+    cursor: pointer;
+}
+legend{
+    text-align: center;
+
+}
+
+footer{
+    text-align: center;
+}
+fieldset{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+fieldset textarea{
+    background-color: rgb(255, 255, 255)
+}
+button{
+    padding: 0.1rem;
+    box-sizing: border-box;
+}
+pre code{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(9, 250, 29);
+}
